@@ -58,7 +58,7 @@ def cleaner(data_path = '..\data\original', save_path ='..\data\cleaned' ):
         df.to_csv('{}\{}'.format(save_path,os.path.basename(os.path.normpath('{}'.format(file)))))
 
 
-# In[ ]:
+# In[51]:
 
 
 cleaner()
